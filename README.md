@@ -59,8 +59,8 @@ pip install python-bidi
 ## Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/eldqyqy2007/mp3-speed-changer.git
+cd mp3-speed-changer
 ```
 
 Or simply download `speed_up_audio.py` and run it directly.
@@ -185,4 +185,4 @@ Issues and pull requests are welcome. If you find a bug or have an idea for an i
 
 ## License
 
-Add a license of your choice (for example [MIT](https://choosealicense.com/licenses/mit/)) by creating a `LICENSE` file in the repository.
+This project is licensed under the [MIT License](LICENSE).
