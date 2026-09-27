@@ -1,0 +1,23 @@
+<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="300" fill="#0d1117"/>
+  <rect x="0" y="0" width="1200" height="300" fill="none" stroke="#21262d" stroke-width="2"/>
+  <text x="60" y="130" font-family="Verdana, Arial, sans-serif" font-size="46" font-weight="bold" fill="#f0f6fc">MP3 Speed Changer</text>
+  <text x="60" y="172" font-family="Verdana, Arial, sans-serif" font-size="20" fill="#8b949e">Pitch-preserving, resumable batch speed-up for MP3 folders</text>
+  <text x="60" y="210" font-family="Verdana, Arial, sans-serif" font-size="16" fill="#484f58">Python · FFmpeg · Termux friendly</text>
+
+  <g fill="#22d3ee">
+    <rect x="860" y="150" width="10" height="40" rx="3"/>
+    <rect x="882" y="120" width="10" height="100" rx="3"/>
+    <rect x="904" y="90" width="10" height="160" rx="3"/>
+    <rect x="926" y="60" width="10" height="220" rx="3"/>
+    <rect x="948" y="100" width="10" height="140" rx="3"/>
+    <rect x="970" y="40" width="10" height="260" rx="3"/>
+    <rect x="992" y="80" width="10" height="180" rx="3"/>
+    <rect x="1014" y="110" width="10" height="120" rx="3"/>
+    <rect x="1036" y="70" width="10" height="200" rx="3"/>
+    <rect x="1058" y="130" width="10" height="80" rx="3"/>
+    <rect x="1080" y="150" width="10" height="40" rx="3"/>
+  </g>
+  <path d="M860 250 L1090 250" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M1080 244 L1090 250 L1080 256" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.5"/>
+</svg>
