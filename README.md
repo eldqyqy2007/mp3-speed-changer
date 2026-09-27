@@ -1,13 +1,13 @@
-&lt;p align="center"&gt;
-  &lt;img src="./assets/banner.svg" alt="MP3 Speed Changer banner" width="100%"&gt;
-&lt;/p&gt;
+<p align="center">
+  <img src="./assets/banner.svg" alt="MP3 Speed Changer banner" width="100%">
+</p>
 
-&lt;p align="center"&gt;
-  &lt;a href="LICENSE"&gt;&lt;img src="https://img.shields.io/badge/license-MIT-blue?labelColor=555" alt="license: MIT"&gt;&lt;/a&gt;
-  &lt;img src="https://img.shields.io/badge/python-3.7%2B-yellow?labelColor=555&amp;logo=python&amp;logoColor=white" alt="python: 3.7+"&gt;
-  &lt;img src="https://img.shields.io/badge/ffmpeg-required-orange?labelColor=555" alt="ffmpeg: required"&gt;
-  &lt;img src="https://img.shields.io/badge/termux-friendly-green?labelColor=555" alt="termux: friendly"&gt;
-&lt;/p&gt;
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue?labelColor=555" alt="license: MIT"></a>
+  <img src="https://img.shields.io/badge/python-3.7%2B-yellow?labelColor=555&logo=python&logoColor=white" alt="python: 3.7+">
+  <img src="https://img.shields.io/badge/ffmpeg-required-orange?labelColor=555" alt="ffmpeg: required">
+  <img src="https://img.shields.io/badge/termux-friendly-green?labelColor=555" alt="termux: friendly">
+</p>
 
 # MP3 Speed Changer
 
@@ -16,7 +16,7 @@ A command-line tool that speeds up entire folders of MP3 files while **preservin
 Powered by [FFmpeg](https://ffmpeg.org/)'s `atempo` filter. No third-party Python packages are required.
 
 ```
-lecture.mp3  --  1.5x, pitch preserved  --&gt;  lecture_1.5x.mp3
+lecture.mp3  --  1.5x, pitch preserved  -->  lecture_1.5x.mp3
 ```
 
 ---
