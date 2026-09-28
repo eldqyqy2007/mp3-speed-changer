@@ -1,23 +1,9 @@
-<svg width="1200" height="300" viewBox="0 0 1200 300" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="300" fill="#0d1117"/>
-  <rect x="0" y="0" width="1200" height="300" fill="none" stroke="#21262d" stroke-width="2"/>
-  <text x="60" y="130" font-family="Verdana, Arial, sans-serif" font-size="46" font-weight="bold" fill="#f0f6fc">MP3 Speed Changer</text>
-  <text x="60" y="172" font-family="Verdana, Arial, sans-serif" font-size="20" fill="#8b949e">Pitch-preserving, resumable batch speed-up for MP3 folders</text>
-  <text x="60" y="210" font-family="Verdana, Arial, sans-serif" font-size="16" fill="#484f58">Python · FFmpeg · Termux friendly</text>
-
-  <g fill="#22d3ee">
-    <rect x="860" y="150" width="10" height="40" rx="3"/>
-    <rect x="882" y="120" width="10" height="100" rx="3"/>
-    <rect x="904" y="90" width="10" height="160" rx="3"/>
-    <rect x="926" y="60" width="10" height="220" rx="3"/>
-    <rect x="948" y="100" width="10" height="140" rx="3"/>
-    <rect x="970" y="40" width="10" height="260" rx="3"/>
-    <rect x="992" y="80" width="10" height="180" rx="3"/>
-    <rect x="1014" y="110" width="10" height="120" rx="3"/>
-    <rect x="1036" y="70" width="10" height="200" rx="3"/>
-    <rect x="1058" y="130" width="10" height="80" rx="3"/>
-    <rect x="1080" y="150" width="10" height="40" rx="3"/>
-  </g>
-  <path d="M860 250 L1090 250" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.5"/>
-  <path d="M1080 244 L1090 250 L1080 256" stroke="#22d3ee" stroke-width="2" fill="none" opacity="0.5"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="250" viewBox="0 0 1400 250">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#030b16"/><stop offset="1" stop-color="#071426"/></linearGradient><linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00d9ff"/><stop offset="1" stop-color="#2563ff"/></linearGradient><filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect width="1400" height="250" rx="18" fill="url(#bg)"/><rect x="2" y="2" width="1396" height="246" rx="16" fill="none" stroke="#0877c9" stroke-width="2"/>
+<g transform="translate(58 52)"><circle cx="72" cy="72" r="58" fill="#071b31" stroke="#00cfff" stroke-width="7"/><path d="M72 72 L112 44" stroke="#00cfff" stroke-width="8" stroke-linecap="round"/><circle cx="72" cy="72" r="9" fill="#00cfff"/><path d="M53 116c12-10 28-10 40 0v-26c-12-8-28-8-40 0z" fill="#00cfff"/><path d="M48 139c12 7 25 7 37 0" fill="none" stroke="#00cfff" stroke-width="6" stroke-linecap="round"/></g>
+<text x="235" y="86" fill="#f4f8ff" font-size="48" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">MP3 <tspan fill="#00d9ff">Speed Changer</tspan></text><text x="238" y="126" fill="#c7d6e7" font-size="22" font-family="Inter,Segoe UI,Arial,sans-serif">Change audio speed while preserving the original pitch.</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" font-weight="700"><rect x="238" y="158" width="104" height="38" rx="19" fill="#071b31" stroke="#0877c9"/><text x="258" y="183" fill="#dff8ff">♫ MP3</text><rect x="354" y="158" width="125" height="38" rx="19" fill="#071b31" stroke="#0877c9"/><text x="374" y="183" fill="#dff8ff">⚙ FFmpeg</text><rect x="491" y="158" width="94" height="38" rx="19" fill="#071b31" stroke="#0877c9"/><text x="511" y="183" fill="#dff8ff">&gt;_ CLI</text><rect x="597" y="158" width="158" height="38" rx="19" fill="#071b31" stroke="#0877c9"/><text x="617" y="183" fill="#dff8ff">〽 Audio</text></g>
+<g filter="url(#glow)" stroke="url(#cyan)" fill="none"><path d="M800 133 815 133 822 111 829 156 837 96 846 169 855 118 864 145 874 83 885 177 895 112 905 148 916 101 927 160 939 125 952 133 964 133" stroke-width="3"/></g>
+<rect x="1010" y="48" width="325" height="154" rx="14" fill="#020914" stroke="#0877c9"/><text x="1032" y="79" fill="#00d9ff" font-size="18" font-family="monospace">$ mp3-speed-changer</text><text x="1032" y="111" fill="#bcd1e5" font-size="16" font-family="monospace">--input audio.mp3</text><text x="1032" y="139" fill="#bcd1e5" font-size="16" font-family="monospace">--speed 1.5</text><text x="1032" y="167" fill="#bcd1e5" font-size="16" font-family="monospace">--output output.mp3</text>
+<rect x="872" y="49" width="105" height="38" rx="19" fill="#071b31" stroke="#00d9ff"/><text x="894" y="75" fill="#00e5ff" font-size="18" font-weight="800" font-family="Inter,Segoe UI,Arial,sans-serif">▶ 1.5x</text></svg>
