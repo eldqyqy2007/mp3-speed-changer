@@ -222,7 +222,7 @@ Delete its output file and remove its name from `.completed.txt` inside the outp
 
 ---
 
-## <img src="./assets/icons/features.svg" alt="" width="24" height="24" align="absmiddle"> Contributing
+## <img src="./assets/icons/contributing.svg" alt="" width="24" height="24" align="absmiddle"> Contributing
 
 Issues and pull requests are welcome. If you find a bug or have an idea for an improvement, please open an issue.
 
