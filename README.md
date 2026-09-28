@@ -21,7 +21,7 @@ lecture.mp3  --  1.5x, pitch preserved  -->  lecture_1.5x.mp3
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Table of contents
+## <img src="./assets/icons/overview.svg" alt="" width="28" height="28" align="absmiddle"> Table of contents
 
 - [Why this tool](#why-this-tool)
 - [Features](#features)
@@ -38,7 +38,7 @@ lecture.mp3  --  1.5x, pitch preserved  -->  lecture_1.5x.mp3
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Why this tool
+## <img src="./assets/icons/audio.svg" alt="" width="28" height="28" align="absmiddle"> Why this tool
 
 Standard speed controls in most media players either distort pitch (the "chipmunk" effect) or only apply to one file at a time. This tool is built for the specific case of **long spoken-word audio in bulk**: a full folder of lecture recordings or audiobook chapters that all need to play faster, at a natural voice pitch, without babysitting the process file by file.
 
@@ -46,7 +46,7 @@ It is also built to survive interruption. Long batches on a phone can get killed
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Features
+## <img src="./assets/icons/speed.svg" alt="" width="28" height="28" align="absmiddle"> Features
 
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Pitch-preserving speed-up** – voices stay natural, no "chipmunk" effect.
 <img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Batch processing** – converts every `.mp3` file in a folder in one run.
@@ -60,7 +60,7 @@ It is also built to survive interruption. Long batches on a phone can get killed
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
+## <img src="./assets/icons/ffmpeg.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
 
 | Requirement | Notes |
 |---|---|
@@ -96,7 +96,7 @@ pip install python-bidi
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Installation
+## <img src="./assets/icons/install.svg" alt="" width="28" height="28" align="absmiddle"> Installation
 
 ```bash
 git clone https://github.com/eldqyqy2007/mp3-speed-changer.git
@@ -107,7 +107,7 @@ Or simply download `speed_up_audio.py` and run it directly.
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Usage
+## <img src="./assets/icons/usage.svg" alt="" width="28" height="28" align="absmiddle"> Usage
 
 ### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Interactive mode
 ```bash
@@ -145,7 +145,7 @@ python3 speed_up_audio.py ~/storage/shared/Download/lectures
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Output
+## <img src="./assets/icons/audio.svg" alt="" width="28" height="28" align="absmiddle"> Output
 
 Results are saved in a new sub-folder next to your originals. **Your original files are never modified.**
 
@@ -163,7 +163,7 @@ Output files are encoded at **96 kbps**, which usually makes them smaller than h
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> How it works
+## <img src="./assets/icons/process.svg" alt="" width="28" height="28" align="absmiddle"> How it works
 
 For each MP3 file, the tool runs four steps:
 
@@ -178,7 +178,7 @@ FFmpeg's `atempo` filter only supports speeds between 0.5x and 2.0x, so for valu
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
+## <img src="./assets/icons/config.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
 
 You can adjust these constants at the top of `speed_up_audio.py`:
 
@@ -192,7 +192,7 @@ If your device gets hot or runs out of memory, lower `MAX_WORKERS` (for example 
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Honest limitations
+## <img src="./assets/icons/limits.svg" alt="" width="28" height="28" align="absmiddle"> Honest limitations
 
 - **Only `.mp3` files are supported.** Other audio formats are ignored.
 - **Only the selected folder is scanned** — sub-folders are not searched.
@@ -203,7 +203,7 @@ If your device gets hot or runs out of memory, lower `MAX_WORKERS` (for example 
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Troubleshooting
+## <img src="./assets/icons/tooling.svg" alt="" width="28" height="28" align="absmiddle"> Troubleshooting
 
 **`ERROR: ffmpeg is not installed or not found in PATH`**
 Install FFmpeg (see [Requirements](#requirements)) and make sure `ffmpeg -version` works in your terminal.
@@ -222,10 +222,10 @@ Delete its output file and remove its name from `.completed.txt` inside the outp
 
 ---
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
+## <img src="./assets/icons/features.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
 
 Issues and pull requests are welcome. If you find a bug or have an idea for an improvement, please open an issue.
 
-## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> License
+## <img src="./assets/icons/license.svg" alt="" width="28" height="28" align="absmiddle"> License
 
 This project is licensed under the [MIT License](LICENSE).
