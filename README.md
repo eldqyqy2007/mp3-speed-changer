@@ -21,7 +21,7 @@ lecture.mp3  --  1.5x, pitch preserved  -->  lecture_1.5x.mp3
 
 ---
 
-## Table of contents
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Table of contents
 
 - [Why this tool](#why-this-tool)
 - [Features](#features)
@@ -38,7 +38,7 @@ lecture.mp3  --  1.5x, pitch preserved  -->  lecture_1.5x.mp3
 
 ---
 
-## Why this tool
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Why this tool
 
 Standard speed controls in most media players either distort pitch (the "chipmunk" effect) or only apply to one file at a time. This tool is built for the specific case of **long spoken-word audio in bulk**: a full folder of lecture recordings or audiobook chapters that all need to play faster, at a natural voice pitch, without babysitting the process file by file.
 
@@ -46,21 +46,21 @@ It is also built to survive interruption. Long batches on a phone can get killed
 
 ---
 
-## Features
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Features
 
-- **Pitch-preserving speed-up** – voices stay natural, no "chipmunk" effect.
-- **Batch processing** – converts every `.mp3` file in a folder in one run.
-- **Chunked & parallel** – each file is split into 5-minute chunks processed in parallel across all CPU cores.
-- **Resumable** – interrupted runs (app closed, phone restarted, power loss) pick up from the last finished chunk; already-completed files are skipped.
-- **Flexible speeds** – presets (1.1x, 1.2x, 1.3x, 1.5x, 1.75x, 2.0x) or any custom value, including speeds above 2.0x via automatic filter chaining.
-- **Interactive menu** – choose a folder and speed step by step, with a live progress bar.
-- **Detailed final report** – files processed / skipped / failed, total size before and after, and total time taken.
-- **Arabic / RTL filename support** – correct display in terminals that lack bidi support (optional `python-bidi`).
-- **Termux friendly** – designed to run well on Android.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Pitch-preserving speed-up** – voices stay natural, no "chipmunk" effect.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Batch processing** – converts every `.mp3` file in a folder in one run.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Chunked & parallel** – each file is split into 5-minute chunks processed in parallel across all CPU cores.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Resumable** – interrupted runs (app closed, phone restarted, power loss) pick up from the last finished chunk; already-completed files are skipped.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Flexible speeds** – presets (1.1x, 1.2x, 1.3x, 1.5x, 1.75x, 2.0x) or any custom value, including speeds above 2.0x via automatic filter chaining.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Interactive menu** – choose a folder and speed step by step, with a live progress bar.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Detailed final report** – files processed / skipped / failed, total size before and after, and total time taken.
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Arabic / RTL filename support** – correct display in terminals that lack bidi support (optional `python-bidi`).
+<img src="./assets/icons/feature.svg" alt="" width="18" height="18" align="absmiddle"> **Termux friendly** – designed to run well on Android.
 
 ---
 
-## Requirements
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Requirements
 
 | Requirement | Notes |
 |---|---|
@@ -68,7 +68,7 @@ It is also built to survive interruption. Long batches on a phone can get killed
 | FFmpeg | Must be available in your `PATH` |
 | python-bidi *(optional)* | Only for correct display of Arabic filenames |
 
-### Install FFmpeg
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Install FFmpeg
 
 **Termux (Android)**
 ```bash
@@ -89,14 +89,14 @@ brew install ffmpeg
 **Windows**
 Download FFmpeg from [ffmpeg.org](https://ffmpeg.org/download.html) and add its `bin` folder to your `PATH`.
 
-### Optional: Arabic filename support
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Optional: Arabic filename support
 ```bash
 pip install python-bidi
 ```
 
 ---
 
-## Installation
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Installation
 
 ```bash
 git clone https://github.com/eldqyqy2007/mp3-speed-changer.git
@@ -107,14 +107,14 @@ Or simply download `speed_up_audio.py` and run it directly.
 
 ---
 
-## Usage
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Usage
 
-### Interactive mode
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Interactive mode
 ```bash
 python3 speed_up_audio.py
 ```
 
-### With a folder path
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> With a folder path
 ```bash
 python3 speed_up_audio.py /path/to/your/mp3/folder
 ```
@@ -124,7 +124,7 @@ On Termux, the shared storage folder is usually under `~/storage/shared/` (run `
 python3 speed_up_audio.py ~/storage/shared/Download/lectures
 ```
 
-### Walkthrough
+### <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Walkthrough
 
 1. Start the tool and choose **1. Start**.
 2. Enter the folder path (skipped if you passed it as an argument).
@@ -145,7 +145,7 @@ python3 speed_up_audio.py ~/storage/shared/Download/lectures
 
 ---
 
-## Output
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Output
 
 Results are saved in a new sub-folder next to your originals. **Your original files are never modified.**
 
@@ -163,7 +163,7 @@ Output files are encoded at **96 kbps**, which usually makes them smaller than h
 
 ---
 
-## How it works
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> How it works
 
 For each MP3 file, the tool runs four steps:
 
@@ -178,7 +178,7 @@ FFmpeg's `atempo` filter only supports speeds between 0.5x and 2.0x, so for valu
 
 ---
 
-## Configuration
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Configuration
 
 You can adjust these constants at the top of `speed_up_audio.py`:
 
@@ -192,7 +192,7 @@ If your device gets hot or runs out of memory, lower `MAX_WORKERS` (for example 
 
 ---
 
-## Honest limitations
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Honest limitations
 
 - **Only `.mp3` files are supported.** Other audio formats are ignored.
 - **Only the selected folder is scanned** — sub-folders are not searched.
@@ -203,7 +203,7 @@ If your device gets hot or runs out of memory, lower `MAX_WORKERS` (for example 
 
 ---
 
-## Troubleshooting
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Troubleshooting
 
 **`ERROR: ffmpeg is not installed or not found in PATH`**
 Install FFmpeg (see [Requirements](#requirements)) and make sure `ffmpeg -version` works in your terminal.
@@ -222,10 +222,10 @@ Delete its output file and remove its name from `.completed.txt` inside the outp
 
 ---
 
-## Contributing
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> Contributing
 
 Issues and pull requests are welcome. If you find a bug or have an idea for an improvement, please open an issue.
 
-## License
+## <img src="./assets/icons/section.svg" alt="" width="28" height="28" align="absmiddle"> License
 
 This project is licensed under the [MIT License](LICENSE).
